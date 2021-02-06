@@ -1,0 +1,185 @@
+*
+{
+    font-family: 'Yusei Magic', sans-serif; 
+    margin: 0;
+    padding: 0;
+    transition: 0.1s;
+}
+
+body{
+    background: white;
+}
+
+.search
+{
+    display: flex; 
+    margin-right: 10px;
+}
+.navbar
+{
+    background-color: green;
+    display: flex; 
+    justify-content: space-between;   
+    align-items: center;
+    padding: 10px;
+    position: fixied;
+}
+
+
+.navbar-text
+{
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-text li a
+{
+    color: white;
+}
+
+main
+{
+    display: block;
+}
+
+
+
+.foods
+{
+    display: flex;
+    margin-top: 30px;
+}
+
+.foods .container .row
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card
+{
+    width: 320px;
+}
+
+
+.container .row .col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-body .btn 
+{
+    color: white;
+    background-color: #d00053;
+    border: none;
+    background-image: none;
+}
+
+i{
+    margin-bottom: 20px;
+}
+
+ .features
+ {
+    max-width: 1100px;
+
+    margin: 100px 15% 100px 15%;
+ }
+
+
+.comments img{
+  width: 75%;
+  border-radius: 20%;
+}
+.comments{
+  margin: 100px 25% 100px 25%;
+}
+h2{
+  text-align: center;
+}
+
+footer
+{
+    color: white;
+    position: fixed;
+    height: 2rem;
+    bottom: 0px;
+    margin-bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: green;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+.info
+{
+    display: none;
+}
+
+.foot-block
+{
+    display: none;
+    align-items: center;
+}
+
+.info ul li 
+{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    list-style-type: none;
+}
+
+.info img:hover
+{
+    fill: #d00053;
+}
+
+.info ul
+{
+    margin-bottom: 0;
+} 
+
+.foot-block ul
+{
+    margin-bottom: 0;
+}
+
+.foot-block ul li
+{
+    display: inline;
+    padding-left: 12px;
+    padding-right: 12px;
+    list-style-type: none;
+}
+
+.foot-block ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.foot-block ul li a:hover
+{
+    color: #d00053;
+}
+
+.nav-link:hover
+{
+    color: #d00053;
+}
+
+footer:hover .info,footer:hover .foot-block
+{
+    display:flex;
+}
+
+footer:hover
+{
+    height: 70px;
+}
